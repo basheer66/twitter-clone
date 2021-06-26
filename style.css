@@ -23,7 +23,7 @@ header{
     flex-direction: column;
     height: 90vh;
     width: 50%;
-    background-color: #1DA1F2;
+    
     float: right;
 
 
@@ -44,6 +44,7 @@ header{
 .logo-1{
     width: 48px;
     fill: rgba(255,255,255,.8);
+    margin-top: 15px;
 }
 .logo{
     padding-top: 0;
@@ -68,6 +69,20 @@ header h2{
     justify-content: center;
     padding: 1em 0;
 }
+
+.sign{
+    background-color: #1DA1F2;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.log{
+    background-color: black;
+    color: #1DA1F2;
+    font-weight: bold;
+    font-size: 14px;
+}
 header .btn{
     padding: 10px 0;
     justify-content: flex-start;
@@ -75,7 +90,7 @@ header .btn{
 
 header button{
     border-radius: 50px;
-    width: 30em;
+    width: 25em;
     height: 50px;
     cursor: pointer;
     border: 2px solid #1DA1F2;
